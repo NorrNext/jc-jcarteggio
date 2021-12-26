@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+        <name>RND JCarteggio Template</name>
+        <author>Roundtheme</author>
+        <creationDate>14 05 2015</creationDate>
+        <copyright>(C) 2015 Roundtheme</copyright>
+        <license>GPLv3</license>
+        <authorEmail>support@norrnext.com</authorEmail>
+        <authorUrl>https://www.norrnext.com</authorUrl>
+        <version>1.1.0</version>
+	<description>JCarteggio template for JComments</description>
+        <fileset>
+			<files folder="pkg_tmpl" target="components/com_jcomments/tpl">
+				<folder>rnd_jcarteggio_dark</folder>
+				<folder>rnd_jcarteggio_dark_flat</folder>
+				<folder>rnd_jcarteggio_default</folder>
+				<folder>rnd_jcarteggio_flat</folder>
+			</files>
+        </fileset>
+</extension>
